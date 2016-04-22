@@ -19,7 +19,7 @@ public class AuxiliaryService extends Service implements EasyTouchView.ServiceLi
 	public void onCreate() {
 		// 创建service时一个 实例化一个TableShowView对象并且调用他的fun()方法把它注册到windowManager上
 		super.onCreate();
-		new EasyTouchView(this, this).initTouchViewEvent();
+		new EasyTouchView(this, this);
 	}
 
 	@Override

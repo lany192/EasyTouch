@@ -222,7 +222,7 @@ public class EasyTouchView extends View {
                 mPopuWin.update();
                 mPopuWin.showAtLocation(mTouchView, Gravity.CENTER,
                         -mOldOffsetX, -mOldOffsetY);
-                mIconImageView.setBackgroundResource(R.drawable.transparent);
+                mIconImageView.setBackgroundResource(android.R.color.transparent);
                 catchSettingTableDismiss();
             } else {
                 mTag = 0;
